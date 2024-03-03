@@ -13,7 +13,7 @@
     function () {
       toggle();
     },
-    Math.floor(Math.random() * 1000),
+    Math.floor(Math.random() * 300),
   );
   console.log(character);
 </script>
@@ -74,7 +74,7 @@
   @media screen and (orientation: portrait) {
     .character {
       width: 40vw;
-      height: 64vw;
+      height: 60vw;
     }
   }
 

@@ -28,6 +28,7 @@
 </script>
 
 <h1>Rick and Morty API Consume</h1>
+
 <hr />
 <h2>{info.count} characters in {info.pages} pages</h2>
 <header>
@@ -63,9 +64,7 @@
 
   main {
     max-width: 720px;
-
   }
-
 
   @media screen and (orientation: portrait) {
     .characters-container {
